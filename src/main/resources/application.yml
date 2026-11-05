@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: llm-gateway
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+llm:
+  upstream:
+    # OpenAI-compatible upstream base URL, for example https://api.example.com/v1
+    base-url: ${LLM_UPSTREAM_BASE_URL:https://api.openai.com/v1}
+    api-key: ${LLM_UPSTREAM_API_KEY:}
+    default-model: ${LLM_DEFAULT_MODEL:gpt-4o-mini}
