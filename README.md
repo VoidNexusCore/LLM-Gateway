@@ -1,5 +1,13 @@
-# LLM Gateway Starter
+<div align="center">
+  <h1>企业级大模型统一接入与治理平台（LLM Gateway）</h1>
 
+  <p>
+    <img src="https://img.shields.io/badge/license-Apache--2.0-2563eb" alt="Apache-2.0 License">
+    <img src="https://img.shields.io/badge/Java-17-ef4444" alt="Java 17">
+    <img src="https://img.shields.io/badge/Spring_Boot-3.3-6db33f" alt="Spring Boot 3.3">
+    <img src="https://img.shields.io/badge/Vue-3-42b883" alt="Vue 3">
+  </p>
+</div>
 这是 LLM Gateway 的第一阶段可运行工程骨架（P0），用于逐步建设企业级大模型统一接入与治理平台。
 
 企业级大模型统一接入与治理平台（LLM Gateway）
